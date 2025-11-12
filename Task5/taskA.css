@@ -1,0 +1,41 @@
+body {
+  background-color: violet;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  overflow: auto;
+}
+
+
+p {
+  width: 30%;
+  float: left;
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.special p {
+    
+    width: 97%;
+    height: 80px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    overflow-y: scroll;
+}
+
+
+
+
+

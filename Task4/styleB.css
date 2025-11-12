@@ -1,0 +1,73 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e4f1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.contact-box {
+  background: linear-gradient(180deg, #28aef3, #27a7e7);
+  width: 420px;
+  padding: 25px 30px;
+  border-radius: 12px;
+
+  
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+
+.contact-box h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+/* الحقول الداخلية لون أبيض */
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+
+textarea {
+  resize: none;
+}
+
+
+button {
+  background-color: #094cb0;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  width: 100px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #063b8a;
+  transform: scale(1.05);
+}
